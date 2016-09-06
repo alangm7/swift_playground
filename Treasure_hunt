@@ -1,0 +1,44 @@
+func moveSmall() {
+    moveForward()
+    moveForward()
+    toggleSwitch()
+}
+func moveLarge() {
+    moveForward()
+    moveForward()
+    toggleSwitch()
+    moveForward()
+    moveForward()
+    toggleSwitch()
+}
+func moveFinal() {
+    moveForward()
+    moveForward()
+    moveForward()
+    moveForward()
+    moveForward()
+    moveForward()
+    toggleSwitch()
+    moveForward()
+    moveForward()
+    toggleSwitch()
+}
+func moving() {
+    moveSmall()
+    turnRight()
+    turnRight()
+    moveForward()
+    moveForward()
+    toggleSwitch()
+    moveSmall()
+    turnRight()
+    turnRight()
+    moveForward()
+    moveForward()
+    turnLeft()
+    moveLarge()
+    turnRight()
+    turnRight()
+    moveFinal()
+}
+moving()
